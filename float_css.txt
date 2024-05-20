@@ -1,0 +1,35 @@
+float = allows other elements to flow arround it
+
+<!DOCTYPE html>
+<html>
+<body>
+<link rel="stylesheet" href="style.css">
+		<head>
+		<img src="images/dog_cute.gif" height="150px" id="img1">
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis voluptas commodi, architecto consequatur accusamus aspernatur laudantium, magni molestias dolorum molestiae ex? Tempore voluptatibus temporibus nesciunt eaque culpa, et laborum fuga!</p>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis voluptas commodi, architecto consequatur accusamus aspernatur laudantium, magni molestias dolorum molestiae ex? Tempore voluptatibus temporibus nesciunt eaque culpa, et laborum fuga!</p>
+		
+		<img src="images/dog_pic.png" height="150px" id="img2">
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis voluptas commodi, architecto consequatur accusamus aspernatur laudantium, magni molestias dolorum molestiae ex? Tempore voluptatibus temporibus nesciunt eaque culpa, et laborum fuga!</p>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis voluptas commodi, architecto consequatur accusamus aspernatur laudantium, magni molestias dolorum molestiae ex? Tempore voluptatibus temporibus nesciunt eaque culpa, et laborum fuga!</p>
+		
+		</head>
+	</body>
+</html>
+
+style.css
+
+body{
+    border: 3px solid;
+    display: flow-root;
+}
+
+#img1{
+float: left;
+margin-right: 10px;
+}
+
+#img2{
+    float: right;
+    margin-left: 10px;
+    }
